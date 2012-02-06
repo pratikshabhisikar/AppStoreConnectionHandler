@@ -1,0 +1,5 @@
+The objective of this class is simple:- To open an app store URL.
+
+Instead of just doing [[UIApplication sharedApplication] openURL:someURL]; use this class to catch errors that could occur due to unsupported URL's, network unavailability, etc without actually taking user out of the application.
+
+Run the app and refer the DemoViewController to see how this apps helps you toggle between opening an invalid URL and an app store URL, starting with invalid URL.
